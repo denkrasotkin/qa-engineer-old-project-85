@@ -1,4 +1,7 @@
 ---
-- summary: | status: fail
+- summary: | 
+    status: fail
+    не вышло
 - summary: |
-  status: pass
+    получилось
+    status: pass

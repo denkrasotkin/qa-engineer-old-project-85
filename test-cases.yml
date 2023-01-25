@@ -1,7 +1,17 @@
 ---
 - summary: |
+    тест
+
   requirement: |
+    описание теста
+
   prerequisites: |
-  test-data: |
+    test-data: |
+  
   steps:
+    1. такое
+    2. вот такое
+    3. и вот это
+
   expected-result: |
+    все хорошо
