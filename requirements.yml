@@ -1,32 +1,37 @@
 ---
 functional:
- - Пользователь может зарегистрироваться на сайте с помощью своей почты или с помощью своего аккаунта на GitHub.
- - Пользователь может начать "игру" без регистрации.
- - Пользователь может создать "игру" с другим пользователем или ботом.
- - При создании игры пользователю предоставляется возможность настройки по фильтрам
-   1. выбор сложности задания
-   2. выбор соперника
-   3. ограничение по времени
-   4. выбор задания
- - Пользователь может просмотреть свои и чужие (других зарегистрированных пользователей) завершенные сеансы "игр".
- - На главной странице сайта должна отображаться таблица лидеров по очкам с фильтром по времени (за неделю/месяц/все время)
- - Сайт должен быть полностью переведен на два языка
-   русский и английский.
- - На главной странице сайта должно отображаться лобби с возможностью выбора соперника по новой игре.
- - Завершенные игры должны быть доступны в записи.
- - Пользователь должен получать очки за победы в играх, на основе которых состовляется рейтинг лидеров
- - Пользователь может следить за ходом игры других пользователей.
- - В лобби и в любой игре есть чат, куда могут писать комментарии пользователи
+- The user can sign up on the website.
+- The user can sign in using GitHub account.
+- The user can start the game without sign in.
+- User can create a game with another user or bot.
+- Available game options
+  1. task difficulty
+  2. choice of opponent
+  3. time delay
+  4. task selection
+- The user can view completed sessions of games.
+- On the main page there should be a leaderboard by points with a filter by time (per week / month / all time)
+- The website must be fully translated into two languages:Russian and English.
+- On the main page there should be a lobby with the ability to select game opponent.
+- A record of completed games must be available for viewing.
+- The user must receive points for winning games.
+- The user can follow the progress of the game of other players.
+- There is a chat in the lobby and in the game where users can write comments.
+
 non-functional:
-- Сайт должен быть протестирован на совместимость с последними версиями браузеров
-- Сайт должен иметь мобильную версию.
-- Сайт должен быть способен обрабатывать большое количество трафика (1000 одновременных пользователей)
-- Сайт имеет расширерие для браузера google chrome 
+- The site must be tested for compatibility with the latest browser versions
+- The website must be mobile friendly.
+- The site must be able to handle a large amount of traffic (1000 concurrent users)
+
 implicit:
-- Сайт должен быть безопасным и защищать данные пользователя
-# НЕзавершенность : Отсутствуют нефункциональные составляющие требования.
-- Сайт должен быть разработан с учетом удобства использования и оптимизирован для скорости работы
-# НЕоднозначность : Использование терминов или фраз, допускающих субъективное толкование.
-- Пользователь не должен иметь возможность редактировать код соперника и в завершенных партиях..
-- Пользователь должен иметь возможность сменить пароль.
-# НЕоднозначность : Использование терминов или фраз, допускающих субъективное толкование.
+- The website must have a chrome browser extension
+# Ambiguity : The use of terms or phrases that are subjective.
+- The website must be secure and protect user data
+# Incomplete : There are no non-functional parts of the requirement.
+- The website must be designed with usability in mind and optimized for speed
+# Ambiguity : The use of terms or phrases that are subjective.
+- The user should not be able to edit the opponent's code in completed games.
+# Ambiguity : The use of terms or phrases that are subjective.
+- User must be able to change password.
+# Ambiguity : The use of terms or phrases that are subjective.
+

@@ -1,17 +1,45 @@
 ---
+#Positive
 - summary: |
-    тест
-
+    1) Регистрация пользователя на сайте.
   requirement: |
-    описание теста
-
+    Регистрация пользователя с помощью своей почты.
   prerequisites: |
-    test-data: |
-  
+    Перейти на сайт https://codebattle.hexlet.io/
   steps:
-    1. такое
-    2. вот такое
-    3. и вот это
-
+    1. Нажать на кнопку "sign up"
+    2. В поле "Nickname" ввести значение "Den"
+    3. В поле "Email" ввести значение "Den@bk.ru"
+    4. В поле "Password" ввести значение "123456"
+    5. В поле "Password" ввести значение "123456"
+    6. Нажать на кнопку "Submit"
   expected-result: |
-    все хорошо
+    Отображение страницы лобби с текущими играми и таблицей лидеров.
+
+- summary: |
+    2) Авторизация пользователя на сайте.
+  requirement: |
+    Авторизация пользователя с помощью своего аккаунта на GitHub.
+  prerequisites: |
+    Перейти на сайт https://codebattle.hexlet.io/
+    Необходимо зарегистрироваться на Github
+  steps:
+    1. Нажать на кнопку "sign in with Github"
+    2. Ввести в поля "login", "password" данные аккаунта на Github
+    3. Нажать кнопку "sign in"
+  expected-result: |
+    Отображение страницы лобби с текущими играми и таблицей лидеров.
+
+- summary: |
+    3) 
+  requirement: |
+    
+  prerequisites: |
+    Перейти на сайт https://codebattle.hexlet.io/
+  steps:
+    1. 
+    2. 
+    3. 
+    4.
+  expected-result: |
+    
