@@ -316,19 +316,6 @@
 
 #Negative
 - summary: |
-    1)
-  requirement: |
-    
-  prerequisites: |
-    Перейти на сайт https://codebattle.hexlet.io/
-    Chrome Версия 108.0.5359.125
-  steps:
-    1. 
-  expected-result: |
-    Ото
-
-
-- summary: |
     1) Ошибка при регистрации
   requirement: |
     Ввод неправильных данных при регистрации
@@ -343,4 +330,51 @@
     5. В поле "Password" ввести значение "1"
     6. Нажать на кнопку "Submit"
   expected-result: |
-    Отображение ошибок с текстом
+  
+
+- summary: |
+    2) Ошибка при авторизации
+  requirement: |
+    Ввод неправильных данных при авторизации
+  prerequisites: |
+    Перейти на сайт https://codebattle.hexlet.io/
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. Нажать на кнопку "sign in"
+    2. Ввести данные аккаунта в поля "email","password". Например:"123bk.ru","123456"
+    2. Нажать кнопку "submit"
+  expected-result: |
+    Отображение ошибки неправильного email.
+
+
+- summary: |
+    3) Редактирование кода соперника
+  requirement: |
+    Пользователь не имеет возможности редактировать чужой код
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. Нажать на кнопку "Create a game"
+    2. Нажать на кнопку "With a bot"
+    3. Нажать на кнопку "Create Battle"
+    4. Напечатать "Привет!" в терминале бота
+  expected-result: |
+    Печать в чужом терминале невозможна
+
+
+- summary: |
+    4) Редактирование кода в завершенных играх
+  requirement: |
+    Пользователь не имеет возможности редактировать код из завершенных игр
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. Нажать на ник нейм пользователя. Например:"Den"
+    2. Нажать на кнопку "My Profile"
+    3. Нажать на кнопку "Completed games"
+    4. Нажать на кнопку "Show" у любой угры из списка
+    5. Напечатать "Привет!" в терминале
+  expected-result: |
+    Печать в любом терминале завершенной игры невозможна  
