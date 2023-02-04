@@ -16,8 +16,9 @@
   expected-result: |
     Отображение страницы лобби с текущими играми и таблицей лидеров.
 
+
 - summary: |
-    2) Авторизация пользователя на сайте.
+    2) Авторизация пользователя на сайте первый вариант.
   requirement: |
     Авторизация пользователя с помощью своего аккаунта на GitHub.
   prerequisites: |
@@ -25,13 +26,96 @@
     Необходимо зарегистрироваться на Github
   steps:
     1. Нажать на кнопку "sign in with Github"
-    2. Ввести в поля "login", "password" данные аккаунта на Github
+    2. Ввести данные аккаунта на Github в поля "email","password". Например:"123@bk.ru","123456" 
     3. Нажать кнопку "sign in"
   expected-result: |
     Отображение страницы лобби с текущими играми и таблицей лидеров.
 
+
 - summary: |
-    3) 
+    3) Авторизация пользователя на сайте второй вариант.
+  requirement: |
+    Авторизация пользователя с помощью своей почты.
+  prerequisites: |
+    Перейти на сайт https://codebattle.hexlet.io/session/new
+  steps:
+    1. Ввести данные аккаунта в поля "email","password". Например:"123@bk.ru","123456"
+    2. Нажать кнопку "submit"
+  expected-result: |
+    Отображение страницы лобби с текущими играми и таблицей лидеров.
+
+
+- summary: |
+    4) Пробная игра без регистрации
+  requirement: |
+    Возможность начать игру без регистрации
+  prerequisites: |
+    Перейти на сайт https://codebattle.hexlet.io/
+  steps:
+    1. Нажать на кнопку "Try simple battle"
+  expected-result: |
+    Отобразилась страница игры с ботом.
+
+
+- summary: |
+    5) Создание новой игры
+  requirement: |
+    Возможность создать игру с ботом
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  steps:
+    1. Нажать на кнопку "Create a game"
+    2. Нажать на кнопку "With a bot"
+    3. Нажать на кнопку "Create Battle"
+  expected-result: |   
+    Отобразилась страница игры с ботом
+
+
+  - summary: |
+    5) Игра с другом
+  requirement: |
+    Возможность создать игру с другом
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  steps:
+    1. Нажать на кнопку "Create a game"
+    2. Нажать на кнопку "With a friend"
+    3. В пункт "Choose opponent" ввести имя любого пользователя.Например:"Den"
+    4. Нажать на кнопку "Create Battle"
+  expected-result: |  
+    Отображение сообщения об успешном создании игры.
+
+  - summary: |
+    6) Настройка при создании игры
+  requirement: |
+    Возможность настроить параметры игры
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  steps:
+    1. Нажать на кнопку "Create a game"
+    2. В пункте "Level" выбрать 3 звезды
+    3. Нажать на кнопку "With a bot"
+    4. С помощью ползунка выбрать время 10 минут.
+    5. С помощью выпадающего списка "Choose task" выбрать задание. Например:"star_number"
+    6. Нажать на кнопку "Create Battle"
+  expected-result: |  
+    Отобразилась страница игры с ботом, с выбранными ранее параметрами.
+
+  - summary: |
+    7) Игра с другими пользователями
+  requirement: |
+    Возможность создать игру с другим пользователем
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  steps:
+    1. Нажать на кнопку "Create a game"
+    2. Нажать на кнопку "With other users"
+    3. Нажать на кнопку "Create Battle"
+  expected-result: |  
+
+
+  - summary: |
+    
   requirement: |
     
   prerequisites: |
@@ -41,5 +125,18 @@
     2. 
     3. 
     4.
-  expected-result: |
+  expected-result: |  
+
+
+  - summary: |
     
+  requirement: |
+    
+  prerequisites: |
+    Перейти на сайт https://codebattle.hexlet.io/
+  steps:
+    1. 
+    2. 
+    3. 
+    4.
+  expected-result: |  
