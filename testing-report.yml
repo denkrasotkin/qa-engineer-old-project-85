@@ -5,15 +5,15 @@
 
 - summary: |
         2) Авторизация пользователя на сайте первый вариант.
-    status: pass
+status: pass
 
 - summary: |
         3) Авторизация пользователя на сайте второй вариант.
-    status: pass
+status: pass
 
 - summary: |
         4) Пробная игра без регистрации
-    status: pass 
+status: pass 
 
 - summary: |
         5) Создание новой игры 
