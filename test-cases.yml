@@ -6,6 +6,7 @@
     Регистрация пользователя с помощью своей почты.
   prerequisites: |
     Перейти на сайт https://codebattle.hexlet.io/
+    Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "sign up"
     2. В поле "Nickname" ввести значение "Den"
@@ -24,6 +25,7 @@
   prerequisites: |
     Перейти на сайт https://codebattle.hexlet.io/
     Необходимо зарегистрироваться на Github
+    Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "sign in with Github"
     2. Ввести данные аккаунта на Github в поля "email","password". Например:"123@bk.ru","123456" 
@@ -38,6 +40,7 @@
     Авторизация пользователя с помощью своей почты.
   prerequisites: |
     Перейти на сайт https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
   steps:
     1. Ввести данные аккаунта в поля "email","password". Например:"123@bk.ru","123456"
     2. Нажать кнопку "submit"
@@ -51,6 +54,7 @@
     Возможность начать игру без регистрации
   prerequisites: |
     Перейти на сайт https://codebattle.hexlet.io/
+    Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "Try simple battle"
   expected-result: |
@@ -63,6 +67,7 @@
     Возможность создать игру с ботом
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "Create a game"
     2. Нажать на кнопку "With a bot"
@@ -77,6 +82,7 @@
     Возможность создать игру с другом
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "Create a game"
     2. Нажать на кнопку "With a friend"
@@ -92,6 +98,7 @@
     Возможность настроить параметры игры
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "Create a game"
     2. В пункте "Level" выбрать 3 звезды
@@ -109,6 +116,7 @@
     Возможность создать игру с другим пользователем
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "Create a game"
     2. Нажать на кнопку "With other users"
@@ -123,6 +131,7 @@
     Возможность просмотра своей завершенной игры.
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на ник нейм пользователя. Например:"Den"
     2. Нажать на кнопку "My Profile"
@@ -138,6 +147,7 @@
     Отображение таблицы лидеров на главной странице
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "month" в таблице лидеров
     2. Нажать на кнопку "all" в таблице лидеров
@@ -146,15 +156,191 @@
     Отображение текущих лидеров по очкам соответственно времени month,all,week
 
 
-   - summary: |
-    11)
+- summary: |
+    11) Перевод заданий
   requirement: |
-    Отображение таблицы лидеров на главной странице
+    Возможность перевода на русский язык задания для игры
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
   steps:
-    1. Нажать на кнопку "month" в таблице лидеров
-    2. Нажать на кнопку "all" в таблице лидеров
-    3. Нажать на кнопку "week" в таблице лидеров
+    1. Нажать на кнопку "Create a game"
+    2. Нажать на кнопку "With a bot"
+    3. Нажать на кнопку "Create Battle"
+    4. Нажать на кнопку "RU"
   expected-result: |  
-    Отображение текущих лидеров по очкам соответственно времени month,all,week 
+    Отображен перевод текста задания на русский язык.
+
+
+ - summary: |
+    12) Быстрая игра
+  requirement: |
+    Возможность начать игру с ботом или пользователем из лобби
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. Нажать на кнопку "Fight" из списка предложенных игр с ботом или пользователем
+  expected-result: |  
+     Отображена страница игры с ботом или пользователем
+
+
+- summary: |
+    13) Рейтинг игроков
+  requirement: |
+    Возможность получения и потери очков за участие в играх
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. Нажать на кнопку "TOP list" в таблице лидеров
+  expected-result: |  
+    Отображены очки пользователей и их текущий ранг
+
+
+- summary: |
+    14) Просмотр игры
+  requirement: |
+    Возможность просмотра игры других пользователей
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. Нажать на кнопку "Show" в лобби из списка игр
+  expected-result: |  
+    Отображена страница игры между двумя пользователями
+
+
+- summary: |
+    15) Комментарии в лобби
+  requirement: |
+    Возможность оставлять комментарии в лобби
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. В лобби, в поле ввода написать сообщение. Например:"Привет!"
+    2. Нажать кнопку "Send"
+  expected-result: |  
+    Отображено сообщение "Привет!" в чате лобби
+
+
+- summary: |
+    16) Комментарии в игре
+  requirement: |
+    Возможность оставлять комментарии в игре
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. Нажать на кнопку "Create a game"
+    2. Нажать на кнопку "With a bot"
+    3. Нажать на кнопку "Create Battle"
+    4. В поле ввода написать сообщение. Например:"Привет!"
+    5. Нажать кнопку "Send"
+  expected-result: |  
+    Отображено сообщение "Привет!" в чате лобби
+
+
+- summary: |
+    17) Выбор языка программирования
+  requirement: |
+    Возможность писать код в игре на разных языках программирования
+  prerequisites: |
+    Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. Нажать на кнопку "Create a game"
+    2. Нажать на кнопку "With a bot"
+    3. Нажать на кнопку "Create Battle"
+    4. Нажать на кнопку выбора изыка и выбрать "Java 18"
+  expected-result: |  
+    Отображен терминал для ввода кода на языке "Java 18"
+
+
+- summary: |
+    18) Мобильная версия сайта
+  requirement: |
+    Работа сайта на мобильных устройствах
+  prerequisites: |
+    Мобильное устройство Samsung SM-G970F
+    Chrome 108.0.5359.128
+  steps: 
+    1. Включить приложение Google Chrome
+    2. Перейти на страницу https://codebattle.hexlet.io/session/new
+    3. Ввести данные аккаунта в поля "email","password". Например:"123@bk.ru","123456"
+    4. Нажать кнопку "submit"
+    5. Нажать на кнопку "Create a game"
+    6. Нажать на кнопку "With a bot"
+    7. Нажать на кнопку "Create Battle"
+  expected-result: |  
+    Отображена страница игры с ботом. 
+
+
+- summary: |
+    19) Конфигурационное тестирование
+  requirement: |
+    Тестирование на разных версиях web-браузеров
+  prerequisites: |
+    Yandex Версия 108.0.1462.54 
+  steps: 
+    1. Открыть Яндекс браузер
+    2. Перейти на страницу https://codebattle.hexlet.io/session/new
+    3. Ввести данные аккаунта в поля "email","password". Например:"123@bk.ru","123456"
+    4. Нажать кнопку "submit"
+    5. Нажать на кнопку "Create a game"
+    6. Нажать на кнопку "With a bot"
+    7. Нажать на кнопку "Create Battle"
+  expected-result: | 
+    Отображена страница игры с ботом. 
+  
+
+- summary: |
+    20) Нагрузочное тестирование
+  requirement: |
+    Работа сайта при большой объеме трафика
+  prerequisites: |
+    Приложение "Apache JMeter 5.5"
+    https://jmeter.apache.org/ #описание работы программы
+  test-data: |  
+   Фаил "PlanHexlet.jmx"
+  steps: 
+    - Открыть приложение "JMeter", запустив файл "Jmeter.bin"
+    - Открыть тест план "PlanHexlet.jmx"
+    - Запустить тест
+    - Открыть раздел "Graph Results"
+  expected-result: |   
+    Значения количества запросов в минуту соответствуют заявленным. Минимальное количество ошибок.
+
+
+
+#Negative
+- summary: |
+    1)
+  requirement: |
+    
+  prerequisites: |
+    Перейти на сайт https://codebattle.hexlet.io/
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. 
+  expected-result: |
+    Ото
+
+
+- summary: |
+    1) Ошибка при регистрации
+  requirement: |
+    Ввод неправильных данных при регистрации
+  prerequisites: |
+    Перейти на сайт https://codebattle.hexlet.io/
+    Chrome Версия 108.0.5359.125
+  steps:
+    1. Нажать на кнопку "sign up"
+    2. Поле "Nickname" оставить пустым
+    3. Поле "Email" оставить пустым
+    4. Поле "Password" оставить пустым
+    5. В поле "Password" ввести значение "1"
+    6. Нажать на кнопку "Submit"
+  expected-result: |
+    Отображение ошибок с текстом

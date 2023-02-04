@@ -17,6 +17,7 @@ functional:
 - The user must receive points for winning games.
 - The user can follow the progress of the game of other players.
 - There is a chat in the lobby and in the game where users can write comments.
+- Выбор языка программирования
 
 non-functional:
 - The site must be tested for compatibility with the latest browser versions
