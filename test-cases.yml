@@ -6,6 +6,7 @@
     Регистрация пользователя с помощью своей почты.
   prerequisites: |
     Перейти на сайт https://codebattle.hexlet.io/
+  test-data: |
     Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "sign up"
@@ -25,6 +26,7 @@
   prerequisites: |
     Перейти на сайт https://codebattle.hexlet.io/
     Необходимо зарегистрироваться на Github
+  test-data: |
     Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "sign in with Github"
@@ -40,6 +42,7 @@
     Авторизация пользователя с помощью своей почты.
   prerequisites: |
     Перейти на сайт https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
   steps:
     1. Ввести данные аккаунта в поля "email","password". Например:"123@bk.ru","123456"
@@ -54,6 +57,7 @@
     Возможность начать игру без регистрации
   prerequisites: |
     Перейти на сайт https://codebattle.hexlet.io/
+  test-data: |
     Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "Try simple battle"
@@ -67,7 +71,9 @@
     Возможность создать игру с ботом
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "Create a game"
     2. Нажать на кнопку "With a bot"
@@ -82,7 +88,9 @@
     Возможность создать игру с другом
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "Create a game"
     2. Нажать на кнопку "With a friend"
@@ -98,7 +106,9 @@
     Возможность настроить параметры игры
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "Create a game"
     2. В пункте "Level" выбрать 3 звезды
@@ -116,7 +126,9 @@
     Возможность создать игру с другим пользователем
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "Create a game"
     2. Нажать на кнопку "With other users"
@@ -131,7 +143,9 @@
     Возможность просмотра своей завершенной игры.
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на ник нейм пользователя. Например:"Den"
     2. Нажать на кнопку "My Profile"
@@ -147,7 +161,9 @@
     Отображение таблицы лидеров на главной странице
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "month" в таблице лидеров
     2. Нажать на кнопку "all" в таблице лидеров
@@ -162,7 +178,9 @@
     Возможность перевода на русский язык задания для игры
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "Create a game"
     2. Нажать на кнопку "With a bot"
@@ -178,7 +196,9 @@
     Возможность начать игру с ботом или пользователем из лобби
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "Fight" из списка предложенных игр с ботом или пользователем
   expected-result: |  
@@ -191,7 +211,9 @@
     Возможность получения и потери очков за участие в играх
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "TOP list" в таблице лидеров
   expected-result: |  
@@ -204,7 +226,9 @@
     Возможность просмотра игры других пользователей
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "Show" в лобби из списка игр
   expected-result: |  
@@ -217,7 +241,9 @@
     Возможность оставлять комментарии в лобби
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. В лобби, в поле ввода написать сообщение. Например:"Привет!"
     2. Нажать кнопку "Send"
@@ -231,7 +257,9 @@
     Возможность оставлять комментарии в игре
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "Create a game"
     2. Нажать на кнопку "With a bot"
@@ -248,7 +276,9 @@
     Возможность писать код в игре на разных языках программирования
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "Create a game"
     2. Нажать на кнопку "With a bot"
@@ -264,7 +294,8 @@
     Работа сайта на мобильных устройствах
   prerequisites: |
     Мобильное устройство Samsung SM-G970F
-    Chrome 108.0.5359.128
+  test-data: |
+    Chrome Версия 108.0.5359.128
   steps: 
     1. Включить приложение Google Chrome
     2. Перейти на страницу https://codebattle.hexlet.io/session/new
@@ -283,6 +314,8 @@
     Тестирование на разных версиях web-браузеров
   prerequisites: |
     Yandex Версия 108.0.1462.54 
+  test-data: |
+    none
   steps: 
     1. Открыть Яндекс браузер
     2. Перейти на страницу https://codebattle.hexlet.io/session/new
@@ -298,15 +331,16 @@
 - summary: |
     20) Нагрузочное тестирование
   requirement: |
-    Работа сайта при большой объеме трафика
+    Работа сайта при большом объеме трафика
   prerequisites: |
     Приложение "Apache JMeter 5.5"
     https://jmeter.apache.org/ #описание работы программы
   test-data: |  
-   Фаил "PlanHexlet.jmx"
+   Фаил "HTTP Request.jmx"
+   Количество пользователей:1000
   steps: 
     - Открыть приложение "JMeter", запустив файл "Jmeter.bin"
-    - Открыть тест план "PlanHexlet.jmx"
+    - Открыть тест план "HTTP Request.jmx"
     - Запустить тест
     - Открыть раздел "Graph Results"
   expected-result: |   
@@ -321,6 +355,7 @@
     Ввод неправильных данных при регистрации
   prerequisites: |
     Перейти на сайт https://codebattle.hexlet.io/
+  test-data: |
     Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "sign up"
@@ -338,6 +373,7 @@
     Ввод неправильных данных при авторизации
   prerequisites: |
     Перейти на сайт https://codebattle.hexlet.io/
+  test-data: |
     Chrome Версия 108.0.5359.125
   steps:
     1. Нажать на кнопку "sign in"
@@ -353,7 +389,9 @@
     Пользователь не имеет возможности редактировать чужой код
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на кнопку "Create a game"
     2. Нажать на кнопку "With a bot"
@@ -369,7 +407,9 @@
     Пользователь не имеет возможности редактировать код из завершенных игр
   prerequisites: |
     Авторизоваться на сайте https://codebattle.hexlet.io/session/new
+  test-data: |
     Chrome Версия 108.0.5359.125
+    Login:123@bk.ru Password:123456
   steps:
     1. Нажать на ник нейм пользователя. Например:"Den"
     2. Нажать на кнопку "My Profile"
