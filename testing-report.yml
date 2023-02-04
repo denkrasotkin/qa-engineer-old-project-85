@@ -8,89 +8,89 @@
   status: pass
 
 - summary: |
-    3) Авторизация пользователя на сайте второй вариант.
-status: pass
+    3) Авторизация пользователя на сайте второй вариант
+  status: pass
 
 - summary: |
     4) Пробная игра без регистрации
-status: pass 
+  status: pass 
 
 - summary: |
     5) Создание новой игры 
     status: pass 
 
 - summary: |
-        6) Игра с другом
-    status: fail 
+    6) Игра с другом
+  status: fail 
 
 - summary: |
-        7) Настройка при создании игры 
-    status: pass 
+    7) Настройка при создании игры 
+  status: pass 
 
 - summary: |
-        8) Игра с другими пользователями 
-    status: pass 
+    8) Игра с другими пользователями 
+  status: pass 
 
 - summary: |
-        9) Просмотр игры в записи    
-    status: pass 
+    9) Просмотр игры в записи    
+  status: pass 
 
 - summary: |
-        10)Таблица лидеров
-    status: pass 
+    10)Таблица лидеров
+  status: pass 
 
 - summary: |
-        11) Перевод заданий
-    status: pass 
+    11) Перевод заданий
+  status: pass 
 
 - summary: |
-        12) Быстрая игра
-    status: pass 
+    12) Быстрая игра
+  status: pass 
 
 - summary: |
-        13) Рейтинг игроков
-    status: pass 
+    13) Рейтинг игроков
+  status: pass 
 
 - summary: |
-        14) Просмотр игры
-    status: pass 
+    14) Просмотр игры
+  status: pass 
 
 - summary: |
-        15) Комментарии в лобби
-    status: pass    
+    15) Комментарии в лобби
+  status: pass    
 
 - summary: |
-        16) Комментарии в игре
-    status: pass  
+    16) Комментарии в игре
+  status: pass  
 
 - summary: |
-        17) Выбор языка программирования
-    status: pass  
+    17) Выбор языка программирования
+  status: pass  
 
 - summary: |
-        18) Мобильная версия сайта
-    status: pass  
+    18) Мобильная версия сайта
+  status: pass  
 
 - summary: |
-        19) Конфигурационное тестирование
-    status: pass  
+    19) Конфигурационное тестирование
+  status: pass  
 
 - summary: |
-        20) Нагрузочное тестирование
-    status: fail  
+    20) Нагрузочное тестирование
+  status: fail  
 
 - summary: |
-        21) Ошибка при регистрации
-    status: pass  
+    21) Ошибка при регистрации
+  status: pass  
 
 - summary: |
-        22) Ошибка при авторизации
-    status: pass  
+    22) Ошибка при авторизации
+  status: pass  
 
 - summary: |
-        23) Редактирование кода соперника
-    status: pass  
+    23) Редактирование кода соперника
+  status: pass  
 
 - summary: |
-        24) Редактирование кода в завершенных играх
-    status: pass  
+    24) Редактирование кода в завершенных играх
+  status: pass  
