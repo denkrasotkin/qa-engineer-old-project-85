@@ -1,39 +1,39 @@
 ---
 #Positive
 - summary: |
-    1) Регистрация пользователя на сайте
+    1) User registration on the site
   requirement: |
-    Регистрация пользователя с помощью своей почты
+    User registration by email
   prerequisites: |
-    Перейти на сайт https://codebattle.hexlet.io/
+    Go to https://codebattle.hexlet.io/
   test-data: |
     Chrome Версия 108.0.5359.125
   steps:
-  - Нажать на кнопку "sign up"
-  - В поле "Nickname" ввести значение "Den"
-  - В поле "Email" ввести значение "Den@bk.ru"
-  - В поле "Password" ввести значение "123456"
-  - В поле "Password" ввести значение "123456"
-  - Нажать на кнопку "Submit"
+    - Click on "sign up" button
+    - In the field "Nickname" enter the value "Den"
+    - In the field "E-mail" enter the value "Den@bk.ru"
+    - In the first "Password" field, enter the value "123456"
+    - In the second "Password" field, enter the value "123456"
+    - Click on "Submit" button
   expected-result: |
-    Отображение страницы лобби с текущими играми и таблицей лидеров.
+    Display the lobby page with current games and leaderboards.
 
 
 - summary: |
-    2) Авторизация пользователя на сайте первый вариант
+    2) User authorization on the site first variant
   requirement: |
-    Авторизация пользователя с помощью своего аккаунта на GitHub
+    User authorization using your GitHub account
   prerequisites: |
-    Перейти на сайт https://codebattle.hexlet.io/
-    Необходимо зарегистрироваться на Github
+    Go to https://codebattle.hexlet.io/
+    Need to sign up on Github
   test-data: |
-    Chrome Версия 108.0.5359.125
+    Chrome Version 108.0.5359.125
   steps:
-  - Нажать на кнопку "sign in with Github"
-  - Ввести данные аккаунта на Github в поля "email","password". Например:"123@bk.ru","123456" 
-  - Нажать кнопку "sign in"
+   - Click on the "sign in with Github" button
+   - Enter your Github account details in the fields "email", "password". For example:"123@bk.ru", "123456"
+   - Press the "sign in" button
   expected-result: |
-    Отображение страницы лобби с текущими играми и таблицей лидеров
+    Display lobby page with current games and leaderboard
 
 
 - summary: |
