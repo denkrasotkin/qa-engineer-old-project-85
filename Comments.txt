@@ -1,0 +1,30 @@
+About project
+
+Codebattle is an open source Hexlet project. The current version is being developed entirely by the community.
+Many developers have participated in the project over the years.
+
+Codebattle is a game in which two programmers perform the same task at the same time in different programming languages. Whoever completes the task faster wins.
+
+The main features of the project:
+
+Solve a speed problem against another player.
+Both players see each other's editor with code, test output, can change the programming language during the solution
+The game can be played with any user, with a bot or a friend (the game will be available via the link)
+You can choose the game by difficulty level.
+When creating a game, you can select a specific game, otherwise it will be selected at random
+Tasks are given in two languages - Russian and English
+Other users can follow the progress of the game
+The game has a chat in which registered users communicate
+The completed game is available in the recording. Code editor looks like a video player
+Users receive points based on which the ranking is based on the week, month and all time
+
+Based on common sense, the following requirements are formulated:
+
+The site should be designed with usability in mind and optimized for speed.
+The site must be secure and protect user data
+The site must be mobile friendly
+The site must be tested for compatibility with the latest versions of browsers
+The site must be able to handle a large amount of traffic (e.g. 1000 concurrent users)
+
+Notes:
+Due to the lack of clear requirements for the project, test cases were compiled based on the experience of testing an online store and the skills gained during the course qa-engineer.
