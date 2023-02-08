@@ -143,7 +143,7 @@
     Ability to view user's completed games.
   prerequisites: |
     Sign in to https://codebattle.hexlet.io/session/new
-   test-data: |
+  test-data: |
     Chrome Version 108.0.5359.125
     Email:123@bk.ru Password:123456
   steps:
@@ -221,7 +221,7 @@
 
 
 
--summary: |
+- summary: |
     14) Show the game
   requirement: |
     The ability to view the game of other users
@@ -305,7 +305,7 @@
    - Click on the "Create a game" button
    - Click on the "With a bot" button
    - Click on the "Create Battle" button
-   expected-result: |
+  expected-result: |
     The game page with bot is displayed
 
 
@@ -358,7 +358,7 @@
     Go to https://codebattle.hexlet.io/
   test-data: |
     Chrome Version 108.0.5359.125
-   steps:
+  steps:
    - Click on the "sign up" button
    - Leave the field "Nickname" empty
    - Leave the "Email" field blank
