@@ -1,5 +1,39 @@
 ---
 issues:
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1202"
-    #
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1173"
+#my issues
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1271"
+    #"Send Feedback" button overley (mobile browser)
+
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1272"
+    #Manual movement of the video player slider doesn't work (Mobile browser)
+
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1273"
+    #Overlay and distortion of elements in tournament lobby.
+
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1274"
+    #Missing "Back" button
+
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1275"
+    #Unremovable inscription after sign in by GitHub.
+
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1276"
+    #There are no restrictions for writing a new task.
+
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1277"
+    #user rating differences
+
+#my comments
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1223"
+    #Залипание текста сообщения в чате после отправки на странице "tournaments".
+
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1229"
+    #Отсутствие переноса символов отправленных подряд без пробелов в чате на главной странице "lobby".
+
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1231"
+    #Не отображается аватар пользователя(авторизованного через email и password) в списке участников турнира.
+
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1240"
+    #Ошибка подбора задания при создании игры с определенными параметрами.
+
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1245"
+    #Ошибка отображения вкладки "Weekly" в "User rating".
