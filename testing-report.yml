@@ -1,10 +1,10 @@
 ---
 - summary: | 
-    Регистрация пользователя на сайте
+    1) User registration on the site
   status: pass
 
 - summary: |
-    2) Авторизация пользователя на сайте первый вариант
+    2) User authorization on the site first variant
   status: pass
 
 - summary: |
