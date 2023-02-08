@@ -20,7 +20,7 @@
 
 
 - summary: |
-    2) User authorization on the site first variant
+    2) User authorization on the website first variant
   requirement: |
     User authorization using your GitHub account
   prerequisites: |
@@ -37,7 +37,7 @@
 
 
 - summary: |
-    3) User authorization on the site second option
+    3) User authorization on the website second variant
   requirement: |
     Authorization of the user using email.
   prerequisites: |
