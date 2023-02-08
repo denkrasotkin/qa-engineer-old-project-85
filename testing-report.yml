@@ -4,93 +4,93 @@
   status: pass
 
 - summary: |
-    2) User authorization on the site first variant
+    2) User authorization on the website first variant
   status: pass
 
 - summary: |
-    3) Авторизация пользователя на сайте второй вариант
+    3) User authorization on the website second variant
   status: pass
 
 - summary: |
-    4) Пробная игра без регистрации
+    4) Simple battle without registration
   status: pass 
 
 - summary: |
-    5) Создание новой игры 
+    5) Create a new game 
   status: pass 
 
 - summary: |
-    6) Игра с другом
+    6) 6) Playing with a friend
   status: fail 
 
 - summary: |
-    7) Настройка при создании игры 
+    7) Setting when creating a game
   status: pass 
 
 - summary: |
-    8) Игра с другими пользователями 
+    8) Play with other users 
   status: pass 
 
 - summary: |
-    9) Просмотр игры в записи    
+    9) Watch the game in the recording    
   status: pass 
 
 - summary: |
-    10)Таблица лидеров
+    10) Leaderboard
   status: pass 
 
 - summary: |
-    11) Перевод заданий
+    11) Translation of tasks
   status: pass 
 
 - summary: |
-    12) Быстрая игра
+    12) Quick game
   status: pass 
 
 - summary: |
-    13) Рейтинг игроков
+    13) Player Rating
   status: pass 
 
 - summary: |
-    14) Просмотр игры
+    14) Show the game
   status: pass 
 
 - summary: |
-    15) Комментарии в лобби
+    15) Comments in the lobby
   status: pass    
 
 - summary: |
-    16) Комментарии в игре
+    16) Comments in the game
   status: pass  
 
 - summary: |
-    17) Выбор языка программирования
+    17) Choosing a programming language
   status: pass  
 
 - summary: |
-    18) Мобильная версия сайта
+    18) Mobile version of the website
   status: pass  
 
 - summary: |
-    19) Конфигурационное тестирование
+    19) Configuration testing
   status: pass  
 
 - summary: |
-    20) Нагрузочное тестирование
+    20) Load testing
   status: fail  
 
 - summary: |
-    21) Ошибка при регистрации
+    21) Registration error
   status: pass  
 
 - summary: |
-    22) Ошибка при авторизации
+    22) Authorization error
   status: pass  
 
 - summary: |
-    23) Редактирование кода соперника
+    23) Editing the opponent's code
   status: pass  
 
 - summary: |
-    24) Редактирование кода в завершенных играх
+    24) Editing the code in completed games
   status: pass  
