@@ -20,9 +20,9 @@
 
 
 - summary: |
-    2) User authorization on the website first variant
+    2) Sign in with GitHub
   requirement: |
-    User authorization using your GitHub account
+    User authorization using GitHub account
   prerequisites: |
     Go to https://codebattle.hexlet.io/
     Need to sign up on Github
@@ -37,9 +37,9 @@
 
 
 - summary: |
-    3) User authorization on the website second variant
+    3) Sign in with Email
   requirement: |
-    Authorization of the user using email.
+    User authorization using email.
   prerequisites: |
     Go to https://codebattle.hexlet.io/session/new
   test-data: |
