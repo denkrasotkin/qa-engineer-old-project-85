@@ -4,11 +4,11 @@
   status: pass
 
 - summary: |
-    2) User authorization on the website first variant
+    2) Sign in with GitHub
   status: pass
 
 - summary: |
-    3) User authorization on the website second variant
+    3) Sign in with Email
   status: pass
 
 - summary: |
